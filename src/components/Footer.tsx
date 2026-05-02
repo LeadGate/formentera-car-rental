@@ -73,7 +73,7 @@ const Footer = () => (
         <p className="text-sm">
           Affiliate disclosure: This site contains links to car rental partners. We may earn a commission when you book through our partners at no extra cost to you.
         </p>
-        <p className="text-xs">Last updated: May 2026</p>
+        <p className="text-xs">Last updated: 2026-05-02</p>
         <p className="text-sm">&copy; {new Date().getFullYear()} formentera-car-rental.com · All rights reserved</p>
       </div>
     </div>
