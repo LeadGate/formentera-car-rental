@@ -10,10 +10,10 @@ import { Search } from "lucide-react";
 // - 8s descendant-count failure detector (widget renders via <div>+<a> only,
 //   so iframe/input/button/form selectors do NOT work)
 const WIDGET_SRC =
-  "https://tpembd.com/content?trs=517071&shmarker=713621.formentera-car-rental&powered_by=true&country=35&city=232951&lang=en&width=100&background=transparent&logo=false&header=false&gearbox=false&cars=false&border=false&footer=false&campaign_id=87&promo_id=4322";
+  "https://tpembd.com/content?trs=517071&shmarker=713621.formentera-car-rental&powered_by=true&country=35&city=143881&lang=en&width=100&background=transparent&logo=false&header=false&gearbox=false&cars=false&border=false&footer=false&campaign_id=87&promo_id=4322";
 
-const FALLBACK_URL = "https://www.localrent.com/en/spain/formentera/?marker=713621.formentera";
-const FALLBACK_LABEL = "Or browse all Formentera rentals on Localrent →";
+const FALLBACK_URL = "https://www.localrent.com/en/spain/ibiza/?marker=713621.formentera";
+const FALLBACK_LABEL = "Or browse Ibiza rentals on Localrent →";
 
 const AffiliateWidget = () => {
   const containerRef = useRef<HTMLDivElement>(null);
