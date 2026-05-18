@@ -58,7 +58,7 @@ const DrivingGuide = () => {
       <SEOHead
         title="Driving in Formentera: The Official 2026 Guide to Rules... — Local Insider Guide"
         description="Driving in Formentera is straightforward for most visitors because Spain’s DGT traffic code applies, but the island adds three local rules that matter"
-        canonical="https://formentera-car-rental.com/driving-in-formentera"
+        canonical="https://formentera-car-rental.com/driving-in-formentera/"
         jsonLd={[breadcrumbSchema, articleSchema]}
       />
 
@@ -115,7 +115,7 @@ const DrivingGuide = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">The connected beacon rule matters even more for island drivers because breakdown assistance on roads toward <strong>Cap de Barbaria</strong>, <strong>La Mola</strong>, or <strong>Migjorn</strong> can take longer than in a mainland city. For that reason, some operators market zero excess add-ons or super CDW products to reduce the cost of damage claims.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> When comparing insurance, ask for the exact excess/deductible in euros and the franquicia amount on the contract, because “full coverage” may still exclude tyres, glass, underbody damage, or a lost key.</p></InfoBox>
           <WarningBox><p>⚠️ <strong>Warning:</strong> A low-price booking can still leave a large preauthorisation hold on your card, especially with options like zero excess or super CDW; always check the deposit amount before signing.</p></WarningBox>
-          <p className="text-gray-700 mb-4 leading-relaxed"><a href="/la-savina-port-pickup-guide" className="text-primary underline hover:text-accent">Formentera ferry and car pickup logistics</a></p>
+          <p className="text-gray-700 mb-4 leading-relaxed"><a href="/la-savina-port-pickup-guide/" className="text-primary underline hover:text-accent">Formentera ferry and car pickup logistics</a></p>
           <p className="text-gray-700 mb-4 leading-relaxed">---</p>
       </Section>
 

@@ -57,7 +57,7 @@ const LaSavinaPortPickupGuide = () => {
       <SEOHead
         title="La Savina Port Car Rental: The Ultimate Pickup Guide for... — Local Insider Guide"
         description="Formentera has no airport, so every La Savina port car rental starts at the ferry terminal in La Savina, beside the PM-820 access road and the rotonda del"
-        canonical="https://formentera-car-rental.com/la-savina-port-pickup-guide"
+        canonical="https://formentera-car-rental.com/la-savina-port-pickup-guide/"
         jsonLd={[breadcrumbSchema, articleSchema]}
       />
 
@@ -96,7 +96,7 @@ const LaSavinaPortPickupGuide = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">Queue length at La Savina port is mostly a function of arrival time, ferry load, and operator layout. On a Tuesday morning in May, a prebooked Fiat Panda or Nissan Micra can often be collected in about 15 minutes, while a Saturday midday arrival in August can push the wait to 60–90 minutes at the busiest kiosks.</p>
           <p className="text-gray-700 mb-4 leading-relaxed"><strong>Direct operational point:</strong> A company desk at La Savina port is usually faster than a crowded ferry-exit counter, and a reservation with a named operator such as Formotor, ProAuto Rent a Car, or Autos Formentera reduces confusion at the handover stage.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">The practical rule is simple: reserve online, identify the exact office, and follow the operator’s pickup instructions rather than joining the first visible queue. This is especially important if your return timing is linked to ferry departure control, because passengers are often asked to arrive at the port about one hour before sailing in high season.</p>
-          <p className="text-gray-700 mb-4 leading-relaxed"><a href="/la-savina-port-pickup-guide" className="text-primary underline hover:text-accent">La Savina port pickup details</a> can help if you want a shorter on-foot transfer from the ferry exit.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed"><a href="/la-savina-port-pickup-guide/" className="text-primary underline hover:text-accent">La Savina port pickup details</a> can help if you want a shorter on-foot transfer from the ferry exit.</p>
       </Section>
 
       <Section
@@ -122,7 +122,7 @@ const LaSavinaPortPickupGuide = () => {
           <CompanyCard><p><strong>Credit card for deposit:</strong> A credit card in the lead driver’s name is commonly required for the security deposit, with typical excess/deductible amounts around €600 + VAT for an economy car and €1,500+ for premium models or convertibles.</p></CompanyCard>
           <CompanyCard><p><strong>Booking voucher:</strong> A printed or digital confirmation speeds up the desk handover and helps the staff reconcile your reservation with the rental agreement.</p></CompanyCard>
           <CompanyCard><p><strong>Child-seat proof if relevant:</strong> A minor’s birth certificate is not usually mandatory, but it can help staff select the correct child seat size faster when the booking includes a child restraint.</p></CompanyCard>
-          <p className="text-gray-700 mb-4 leading-relaxed"><a href="/formentera-car-rental-faq" className="text-primary underline hover:text-accent">Formentera rental questions and documents</a> covers common licence and deposit scenarios in more detail.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed"><a href="/formentera-car-rental-faq/" className="text-primary underline hover:text-accent">Formentera rental questions and documents</a> covers common licence and deposit scenarios in more detail.</p>
       </Section>
 
       <Section
@@ -174,7 +174,7 @@ const LaSavinaPortPickupGuide = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">Electric and low-emission options are increasingly practical on Formentera, especially for short trips between La Savina, Es Pujols, Sant Ferran de ses Roques, and Sant Francesc Xavier. Common EV models on the island include Renault Zoe, BMW i3, and Citroën e-Mehari, while scooter fleets may include Piaggio Typhoon 50/125, Aprilia SR Motard, Sym Symphony, Vespa LX 125, and Piaggio Beverly.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">Charging is most useful when your itinerary includes repeated port-to-village trips rather than one long all-day circuit. Public and semi-public charging references often mention La Savina port, the Sant Francesc 3 cluster, Es Pujols, Sant Ferran, Migjorn, and La Mola, with network names such as Endesa, Wenea, and Iberdrola appearing in current guidance.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">For a quiet, efficient short-hop route, a Renault Zoe or BMW i3 can work well if you return to a charger before the battery gets too low. For rougher camí rural stretches, some travellers prefer a compact petrol model such as a Dacia Sandero or Nissan Micra instead.</p>
-          <p className="text-gray-700 mb-4 leading-relaxed"><a href="/electric-cars-in-formentera" className="text-primary underline hover:text-accent">Electric car charging in Formentera</a> explains where to top up before driving inland or south.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed"><a href="/electric-cars-in-formentera/" className="text-primary underline hover:text-accent">Electric car charging in Formentera</a> explains where to top up before driving inland or south.</p>
       </Section>
 
       <Section

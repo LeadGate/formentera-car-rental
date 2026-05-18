@@ -10,7 +10,7 @@ const About = () => {
       <SEOHead
         title="About Formentera Car Rental | Car Rental in Formentera"
         description="Learn about Formentera Car Rental — your trusted car rental comparison service in Formentera. We help you find the best deals from local and international providers."
-        canonical="https://formentera-car-rental.com/about"
+        canonical="https://formentera-car-rental.com/about/"
         jsonLd={[{
           "@context": "https://schema.org",
           "@type": "WebPage",

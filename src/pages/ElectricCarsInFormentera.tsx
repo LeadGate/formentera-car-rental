@@ -58,7 +58,7 @@ const ElectricCarsInFormentera = () => {
       <SEOHead
         title="Electric Car Rental in Formentera: The Savvy Traveller's... — Local Insider Guide"
         description="Renting an electric car in Formentera in 2026 is a practical way to reduce beach-access fees, blue-zone parking costs, and fuel expense on the island. A"
-        canonical="https://formentera-car-rental.com/electric-cars-in-formentera"
+        canonical="https://formentera-car-rental.com/electric-cars-in-formentera/"
         jsonLd={[breadcrumbSchema, articleSchema]}
       />
 
@@ -116,7 +116,7 @@ const ElectricCarsInFormentera = () => {
         ]}
           />
           <p className="text-gray-700 mb-4 leading-relaxed">Access is controlled by the concession operator, and the gate uses ANPR-style number plate checks tied to the island’s zero-emission classification. An EV rental normally passes without payment, while a petrol vehicle may need to pay before the barrier opens. The practical result is that a <strong>Fiat Panda</strong>, <strong>Opel Corsa</strong>, or <strong>Dacia Sandero</strong> can trigger fees that an EV avoids completely.</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">For drivers combining beach time with island routing, Ses Illetes is easiest to reach from La Savina port by following the local access roads and parking guidance in <a href="/driving-in-formentera" className="text-primary underline hover:text-accent">driving in Formentera</a>. If you plan to pair a beach visit with Espalmador or Es Pujols, the saved fee can matter quickly over a multi-day stay.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">For drivers combining beach time with island routing, Ses Illetes is easiest to reach from La Savina port by following the local access roads and parking guidance in <a href="/driving-in-formentera/" className="text-primary underline hover:text-accent">driving in Formentera</a>. If you plan to pair a beach visit with Espalmador or Es Pujols, the saved fee can matter quickly over a multi-day stay.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> If your itinerary includes multiple Ses Illetes visits, the €0 EV access can offset a meaningful share of a 3- to 7-day rental, especially in high season.</p></InfoBox>
           <WarningBox><p>⚠️ <strong>Warning:</strong> Access rules can change by season, concession, or island authority, so always confirm the current seasonal calendar with the rental operator and the official BOIB notice before you drive in.</p></WarningBox>
           <p className="text-gray-700 mb-4 leading-relaxed">---</p>
@@ -159,7 +159,7 @@ const ElectricCarsInFormentera = () => {
             <li><strong>Migjorn:</strong> Helpful for beach days on the southern coast.</li>
             <li><strong>La Mola:</strong> Practical for higher-elevation village stays and east-island excursions.</li>
           </ul>
-          <p className="text-gray-700 mb-4 leading-relaxed">The charging network is especially relevant if your rental is a <strong>Renault Zoe</strong>, <strong>BMW i3</strong>, <strong>Hyundai Kona</strong>, <strong>Renault Trafic</strong>, or a small-city EV that benefits from topping up during lunch stops in <strong>Sant Francesc Xavier</strong> or overnight near <strong>La Savina port</strong>. If you want the ferry-to-car handoff explained step by step, see <a href="/la-savina-port-pickup-guide" className="text-primary underline hover:text-accent">La Savina port pickup</a>.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">The charging network is especially relevant if your rental is a <strong>Renault Zoe</strong>, <strong>BMW i3</strong>, <strong>Hyundai Kona</strong>, <strong>Renault Trafic</strong>, or a small-city EV that benefits from topping up during lunch stops in <strong>Sant Francesc Xavier</strong> or overnight near <strong>La Savina port</strong>. If you want the ferry-to-car handoff explained step by step, see <a href="/la-savina-port-pickup-guide/" className="text-primary underline hover:text-accent">La Savina port pickup</a>.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> Plan one top-up around lunch in Sant Francesc Xavier or Es Pujols rather than waiting until the battery is low; that reduces queue risk in peak August traffic.</p></InfoBox>
           <WarningBox><p>⚠️ <strong>Warning:</strong> Charger availability can vary by season and app visibility, so a map pin in Endesa, Wenea, or Iberdrola does not always guarantee an immediately free connector.</p></WarningBox>
           <p className="text-gray-700 mb-4 leading-relaxed">---</p>

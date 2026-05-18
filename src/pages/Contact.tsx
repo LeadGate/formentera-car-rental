@@ -40,7 +40,7 @@ const Contact = () => {
       <SEOHead
         title="Contact Formentera Car Rental | Get in Touch"
         description="Have a question about car rental in Formentera? Contact Formentera Car Rental for assistance."
-        canonical="https://formentera-car-rental.com/contact"
+        canonical="https://formentera-car-rental.com/contact/"
         jsonLd={[{ "@context": "https://schema.org", "@type": "WebPage", "name": "Contact Formentera Car Rental", "url": "https://formentera-car-rental.com/contact" }]}
       />
 
