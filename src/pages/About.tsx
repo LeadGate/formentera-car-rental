@@ -11,12 +11,6 @@ const About = () => {
         title="About Formentera Car Rental | Car Rental in Formentera"
         description="Learn about Formentera Car Rental — your trusted car rental comparison service in Formentera. We help you find the best deals from local and international providers."
         canonical="https://formentera-car-rental.com/about/"
-        jsonLd={[{
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "About Formentera Car Rental",
-          "url": "https://formentera-car-rental.com/about"
-        }]}
       />
 
       <Breadcrumbs items={[{ label: "About" }]} />

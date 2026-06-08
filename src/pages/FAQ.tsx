@@ -137,7 +137,6 @@ const FAQ = () => {
         title="Formentera Car Rental FAQ: 12 Key Questions for 2026 |..."
         description="Planning a 2026 trip to Formentera means understanding three things early: the formentera.eco quota system, the island’s rental insurance rules, and the"
         canonical="https://formentera-car-rental.com/formentera-car-rental-faq/"
-        jsonLd={[breadcrumbSchema, faqSchema]}
       />
 
       <Breadcrumbs items={[{ label: "FAQ" }]} />

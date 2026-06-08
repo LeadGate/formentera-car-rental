@@ -59,7 +59,6 @@ const BeachGuide = () => {
         title="Formentera Parking Guide (2026): Ses Illetes Access,... — Local Insider Guide"
         description="Formentera parking in 2026 has three separate systems: regulated blue zones in Es Pujols, La Savina, Sant Francesc Xavier, and Sant Ferran de ses Roques,"
         canonical="https://formentera-car-rental.com/formentera-beaches-by-car/"
-        jsonLd={[breadcrumbSchema, articleSchema]}
       />
 
       <Breadcrumbs items={[{ label: "Beaches" }]} />

@@ -11,12 +11,6 @@ const PrivacyPolicy = () => {
         title="Privacy Policy | Formentera Car Rental"
         description="Privacy policy for Formentera Car Rental. Learn how we handle your data and protect your privacy."
         canonical="https://formentera-car-rental.com/privacy/"
-        jsonLd={[{
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "Privacy Policy | Formentera Car Rental",
-          "url": "https://formentera-car-rental.com/privacy/"
-        }]}
       />
 
       <Breadcrumbs items={[{ label: "Privacy Policy" }]} />
