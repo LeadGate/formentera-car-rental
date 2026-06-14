@@ -57,7 +57,7 @@ const Index = () => {
       <SEOHead
         title="Formentera Car Rental — Compare Deals | Formentera Car..."
         description="Renting a car in Formentera is straightforward when you plan around La Savina port, the summer formentera.eco rules, and the island’s local fleet"
-        canonical="https://formentera-car-rental.com"
+        canonical="https://formentera-car-rental.com/"
         jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema]}
       />
 
