@@ -9,8 +9,6 @@ const navItems = [
   { label: "Driving Tips", path: "/driving-in-formentera" },
   { label: "Beaches", path: "/formentera-beaches-by-car" },
   { label: "FAQ", path: "/formentera-car-rental-faq" },
-  { label: "About", path: "/about" },
-  { label: "Contact", path: "/contact" },
 ];
 
 const Header = () => {
