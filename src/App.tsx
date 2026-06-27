@@ -4,6 +4,7 @@ import Index from "./pages/Index";
 
 const LaSavinaPortPickupGuide = lazy(() => import("./pages/LaSavinaPortPickupGuide"));
 const ElectricCarsInFormentera = lazy(() => import("./pages/ElectricCarsInFormentera"));
+const AutoHurenFormentera = lazy(() => import("./pages/AutoHurenFormentera"));
 const DrivingGuide = lazy(() => import("./pages/DrivingGuide"));
 const BeachGuide = lazy(() => import("./pages/BeachGuide"));
 const FAQ = lazy(() => import("./pages/FAQ"));
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/la-savina-port-pickup-guide" element={<LaSavinaPortPickupGuide />} />
             <Route path="/electric-cars-in-formentera" element={<ElectricCarsInFormentera />} />
+            <Route path="/auto-huren-formentera" element={<AutoHurenFormentera />} />
             <Route path="/driving-in-formentera" element={<DrivingGuide />} />
             <Route path="/formentera-beaches-by-car" element={<BeachGuide />} />
             <Route path="/formentera-car-rental-faq" element={<FAQ />} />

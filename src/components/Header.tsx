@@ -5,6 +5,7 @@ import { Menu, X } from "lucide-react";
 const navItems = [
   { label: "La Savina Port Pickup Guide", path: "/la-savina-port-pickup-guide" },
   { label: "Electric Cars In Formentera", path: "/electric-cars-in-formentera" },
+  { label: "Auto huren (NL)", path: "/auto-huren-formentera" },
   { label: "Driving Tips", path: "/driving-in-formentera" },
   { label: "Beaches", path: "/formentera-beaches-by-car" },
   { label: "FAQ", path: "/formentera-car-rental-faq" },

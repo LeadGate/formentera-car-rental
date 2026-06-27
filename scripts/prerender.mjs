@@ -56,6 +56,7 @@ const HERO_BY_SLUG = {
   "/": "/1.webp",
   "/la-savina-port-pickup-guide": "/4.webp",
   "/electric-cars-in-formentera": "/9.webp",
+  "/auto-huren-formentera": "/auto-huren-formentera-hero.webp",
   "/driving-in-formentera": "/3.webp",
   "/formentera-beaches-by-car": "/2.webp",
   "/formentera-car-rental-faq": "/11.webp",
@@ -190,7 +191,7 @@ function patchHead(html, { slug, canonical, title, description, cfg, heroHref })
         author: cfg.article.author || routesDefaults.author,
         publisher: cfg.article.publisher || routesDefaults.publisher,
         mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
-        inLanguage: 'en',
+        inLanguage: cfg.article.inLanguage || 'en',
         speakable: {
           '@type': 'SpeakableSpecification',
           cssSelector: ['h1', 'h2', '.intro-section', 'p'],
