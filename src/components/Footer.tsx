@@ -52,7 +52,7 @@ const Footer = () => (
           <ul className="space-y-2">
                         <li>
               <a href="https://formentera.eco/en/information" target="_blank" rel="noopener noreferrer" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">
-                formentera.eco — Vehicle Entry Authorisation
+                formentera.eco вЂ” Vehicle Entry Authorisation
               </a>
             </li>
             <li>
@@ -62,7 +62,7 @@ const Footer = () => (
             </li>
             <li>
               <a href="https://www.caib.es/sites/consumidor/es/" target="_blank" rel="noopener noreferrer" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">
-                Direcció General de Consum (Govern Balear)
+                DirecciГі General de Consum (Govern Balear)
               </a>
             </li>
           </ul>
@@ -73,8 +73,8 @@ const Footer = () => (
         <p className="text-sm">
           Affiliate disclosure: This site contains links to car rental partners. We may earn a commission when you book through our partners at no extra cost to you.
         </p>
-        <p className="text-xs">Last updated: 2026-06-27</p>
-        <p className="text-sm">&copy; {new Date().getFullYear()} formentera-car-rental.com · All rights reserved</p>
+        <p className="text-xs">Last updated: 2026-07-02</p>
+        <p className="text-sm">&copy; {new Date().getFullYear()} formentera-car-rental.com В· All rights reserved</p>
       </div>
     </div>
   </footer>

@@ -7,7 +7,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Section from "@/components/Section";
 import ImageDivider from "@/components/ImageDivider";
 import { InfoBox, WarningBox } from "@/components/InfoBox";
-import { Car, Ship, Euro, Waves, ParkingSquare, HelpCircle } from "lucide-react";
+import { Car, Ship, Euro, Waves, ParkingSquare, HelpCircle, CreditCard } from "lucide-react";
 
 const AutoHurenFormentera = () => {
   const breadcrumbSchema = {
@@ -24,10 +24,10 @@ const AutoHurenFormentera = () => {
     "@type": "Article",
     headline: "Auto huren op Formentera 2026: de complete gids voor de slimme reiziger",
     description:
-      "Auto huren op Formentera doe je het beste ter plaatse in La Savina. Alles over de formentera.eco-vergunning, kosten, stranden en parkeren in 2026.",
+      "Auto huren op Formentera doe je het beste ter plaatse in La Savina — ook zonder creditcard. Alles over de formentera.eco-vergunning, kosten, stranden en parkeren in 2026.",
     url: "https://formentera-car-rental.com/auto-huren-formentera",
     datePublished: "2026-06-27",
-    dateModified: "2026-06-27",
+    dateModified: "2026-07-02",
     publisher: {
       "@type": "Organization",
       name: "Formentera Car Rental",
@@ -41,8 +41,8 @@ const AutoHurenFormentera = () => {
   return (
     <Layout>
       <SEOHead
-        title="Auto huren op Formentera 2026 – Slim huren in La Savina"
-        description="Auto huren op Formentera: huur ter plaatse in La Savina, niet een Ibiza-huurauto op de veerboot (boete tot €10.000). Alles over de formentera.eco-vergunning, kosten en stranden in 2026."
+        title="Auto huren op Formentera 2026 – ook zonder creditcard"
+        description="Auto huren op Formentera zonder creditcard: huur ter plaatse in La Savina, niet een Ibiza-huurauto op de veerboot (boete tot €10.000). Alles over de formentera.eco-vergunning, kosten en stranden in 2026."
         canonical="https://formentera-car-rental.com/auto-huren-formentera/"
       />
 
@@ -182,8 +182,9 @@ const AutoHurenFormentera = () => {
           De algemene minimumleeftijd is <strong>21 jaar met 2 jaar rijbewijs</strong>; voor premium klassen geldt 25
           jaar met 3 jaar ervaring (OK Mobility verhuurt onder voorwaarden vanaf 18 jaar met toeslag). Jonge bestuurders
           van 21 tot 24 jaar betalen een toeslag van ongeveer <strong>€3 per dag</strong> en kunnen het eigen risico vaak
-          niet afkopen. Voor de borg is een fysieke <strong>creditcard</strong> (Visa of Mastercard) verplicht; American
-          Express, Diners Club en betaalkaarten (debit) worden geweigerd.
+          niet afkopen. Bij de grote balies (OK Mobility, Avis) is voor de borg een fysieke <strong>creditcard</strong>{" "}
+          (Visa of Mastercard) verplicht; American Express, Diners Club en betaalkaarten (debit) worden daar geweigerd —
+          maar er zijn lokale alternatieven zonder creditcard, zie de sectie hieronder.
         </p>
         <p className="text-gray-700 mb-4 leading-relaxed">
           Het eigen risico (de <em>franchise</em>) varieert per voertuigklasse van <strong>€500 tot €2.500</strong> en is
@@ -197,6 +198,47 @@ const AutoHurenFormentera = () => {
             De wegen zijn smal en omzoomd met drooggestapelde stenen muren, en parkeerplekken zijn krap — grote SUV's zijn
             onpraktisch en lopen snel schade op. Een scooter (50–125cc) huur je vanaf €9 tot €35 per dag; quads zijn
             verboden.
+          </p>
+        </InfoBox>
+      </Section>
+
+      <Section icon={<CreditCard className="w-6 h-6" />} title="Auto of scooter huren zonder creditcard">
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          De grote balies in de haven (OK Mobility, Avis) blokkeren de borg op een fysieke creditcard en weigeren een
+          Nederlandse of Vlaamse bankpas (Maestro, V PAY). Wie alleen een debetkaart heeft, is daarom aangewezen op de
+          lokale verhuurders — en die accepteren wél een gewone bankpas of contant geld, mits je een hogere borg of een
+          verplichte afkoop van het eigen risico accepteert. Reserveer in juli en augustus altijd vooraf: het
+          eilandquotum is beperkt en walk-up is dan risicovol.
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          <strong>Proauto Rent a Car</strong> (centraal kantoor in de haven van La Savina) accepteert een debetkaart, maar
+          dan geldt een verplichte borg die afhangt van de gekozen dekking: zonder afkoop van de franchise staat de borg
+          gelijk aan het eigen-risicobedrag. <strong>Motorent Pujols</strong> accepteert Visa, Mastercard én Maestro, met
+          online 25% aanbetaling of volledige betaling per kaart. Bij de meeste lokale scooterverhuurders reken je een
+          borg van ongeveer <strong>€20 per scooter</strong> af, te voldoen met kaart of contant.
+        </p>
+        <DataTable
+          headers={["Voertuig", "Franchise (eigen risico)", "Afkoop per dag", "Borg zonder creditcard"]}
+          rows={[
+            ["Scooter 50cc", "€180–€300", "€4–€8", "≈ €20 (kaart of contant)"],
+            ["Scooter 125cc", "€500 + btw", "€15", "≈ €20 (kaart of contant)"],
+            ["Auto groep A", "€800", "€12–€27", "= franchise, via debetkaart"],
+            ["Auto groep C+", "€1.200–€2.500", "€12–€27", "= franchise, via debetkaart"],
+          ]}
+        />
+        <WarningBox>
+          <p>
+            ⚠️ <strong>Let op de scooterregel:</strong> voor een <strong>125cc-scooter</strong> heb je een rijbewijs A1/A
+            nodig, óf een B-rijbewijs dat je minstens 3 jaar bezit. Die B-naar-125cc-gelijkstelling is een Spaanse regel
+            die alléén binnen Spanje geldt. Voor een 50cc-scooter volstaat een AM- of B-rijbewijs vanaf 18 jaar. EU-rijbewijzen
+            worden erkend; een internationaal rijbewijs is voor Nederlanders en Belgen niet nodig.
+          </p>
+        </WarningBox>
+        <InfoBox>
+          <p>
+            💡 <strong>Tip:</strong> gebruik de vergelijkingswidget boven aan deze pagina (Localrent) om lokale
+            verhuurders met hun werkelijke borg- en betaalvoorwaarden naast elkaar te leggen — daar filter je op
+            aanbieders die een bankpas of contant geld accepteren, in plaats van te gokken aan de balie.
           </p>
         </InfoBox>
       </Section>
