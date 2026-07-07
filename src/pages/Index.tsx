@@ -52,18 +52,46 @@ const Index = () => {
     }
   };
 
+  const faqSchema =
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does it cost to rent a car in Formentera?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Off-peak (Oct-May), a Fiat Panda manual runs about €33-39/day, rising to €80-110/day in July-August. A live 7 July 2026 check found 5 offers from €93.13/day for a Citroën C3, median €127.26/day, because the island's environmental fleet cap keeps mid-summer supply extremely tight. Book weeks ahead for peak dates." }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I rent on Formentera or bring a car from Ibiza?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A Formentera-based rental is the practical option for most travellers because the formentera.eco system (Ley 7/2019) caps visitor vehicles between 1 June and 30 September at 1,732 cars and 122 motorcycles per day. A car brought from Ibiza needs a permit that is limited and not guaranteed, plus an eco-fee of €6/day (Jun/Sep) or €9/day (Jul/Aug), and unauthorised entry can trigger fines from €1,000 to €10,000." }
+      },
+      {
+        "@type": "Question",
+        "name": "Where do I pick up a rental car in Formentera?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Every ferry passenger arrives at La Savina port, and most local operators such as ProAuto Rent a Car, Formotor, Motorent Pujols, and Autos Formentera hand over vehicles at or near the port. Book the exact vehicle class rather than a vague category, because offices often allocate by fleet availability on the day." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is an electric car worth it on Formentera?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Electric options like the Citroën e-Mehari, Renault Zoe, or BMW i3 reduce parking and beach-access friction in Es Pujols, La Savina, and Ses Illetes, but they cost more per day than a petrol Fiat Panda. For short beach-hopping distances, compare the running costs before choosing, as the island's compact size limits how much fuel a petrol car actually uses." }
+      }
+    ]
+  };
+
   return (
     <Layout>
       <SEOHead
         title="Formentera Car Rental — Compare Deals | Formentera Car..."
         description="Renting a car in Formentera is straightforward when you plan around La Savina port, the summer formentera.eco rules, and the island’s local fleet"
         canonical="https://formentera-car-rental.com/"
-        jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema]}
+        jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema, faqSchema]}
       />
 
       <HeroSection
         title="Formentera Car Rental: Compare Local Prices & Book..."
-        subtitle={<><p className="text-white drop-shadow-md">Renting a car in Formentera is straightforward when you plan around La Savina port, the summer formentera.eco rules, and the island’s local fleet structure. Every ferry passenger arrives at La Savina port, so the first decision is not “whether” to rent, but “which operator and which vehicle” to book.</p></>}
+        subtitle={<><p className="text-white drop-shadow-md">A live 7 July 2026 check found 5 offers for Formentera from €93.13/day for a Citroën C3, median €127.26/day — the island's environmental fleet cap keeps mid-summer supply extremely tight, so book weeks ahead. Every ferry passenger arrives at La Savina port, so the first decision is not “whether” to rent, but “which operator and which vehicle” to book around the summer formentera.eco rules.</p></>}
         image="/1.webp"
         imageAlt="Car rental in Formentera"
       />
