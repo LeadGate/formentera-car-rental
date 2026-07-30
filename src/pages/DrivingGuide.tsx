@@ -56,7 +56,7 @@ const DrivingGuide = () => {
   return (
     <Layout>
       <SEOHead
-        title="Driving in Formentera: The Official 2026 Guide to Rules... — Local Insider Guide"
+        title="Driving in Formentera 2026: Rules, Roads & Licence Guide"
         description="Driving in Formentera is straightforward for most visitors because Spain’s DGT traffic code applies, but the island adds three local rules that matter"
         canonical="https://formentera-car-rental.com/driving-in-formentera/"
       />

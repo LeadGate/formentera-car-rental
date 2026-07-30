@@ -50,7 +50,7 @@
   },
   "/formentera-car-rental-faq/": {
     "article": {
-      "headline": "Formentera Car Rental FAQ: 12 Key Questions for 2026",
+      "headline": "Formentera Car Rental FAQ: 12 Key Questions for 2026 |...",
       "description": "The formentera.eco quota charges non-resident cars €6/day in June and September or €9/day in July and August, with a 5-day minimum; local fleets operate within the quota system.",
       "image": "https://formentera-car-rental.com/og-image.png",
       "wordCount": 1599,
@@ -156,5 +156,14 @@
         "a": "Parkeren is goed geregeld maar schaars in de zomer. In de dorpen geldt van mei tot oktober de blauwe zone (€1,20/uur, gratis tussen 14:00 en 16:00). Bij Cala Saona zijn er slechts 60 plaatsen; Migjorn heeft ruime gratis parkeerruimte. Bij La Savina is er een gratis overloopterrein op 700 m."
       }
     ]
+  },
+  "/about/": {
+    "title": "About Formentera Car Rental | Car Rental in Formentera"
+  },
+  "/contact/": {
+    "title": "Contact Formentera Car Rental | Get in Touch"
+  },
+  "/privacy/": {
+    "title": "Privacy Policy | Formentera Car Rental"
   }
 }

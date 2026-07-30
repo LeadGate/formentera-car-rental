@@ -56,7 +56,7 @@ const ElectricCarsInFormentera = () => {
   return (
     <Layout>
       <SEOHead
-        title="Electric Car Rental in Formentera: The Savvy Traveller's... — Local Insider Guide"
+        title="Electric Car Rental in Formentera 2026: Costs & Operators"
         description="Renting an electric car in Formentera in 2026 is a practical way to reduce beach-access fees, blue-zone parking costs, and fuel expense on the island. A"
         canonical="https://formentera-car-rental.com/electric-cars-in-formentera/"
       />

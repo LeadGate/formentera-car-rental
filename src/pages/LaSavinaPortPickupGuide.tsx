@@ -55,7 +55,7 @@ const LaSavinaPortPickupGuide = () => {
   return (
     <Layout>
       <SEOHead
-        title="La Savina Port Car Rental: The Ultimate Pickup Guide for... — Local Insider Guide"
+        title="La Savina Port Car Rental Pickup Guide for 2026"
         description="Formentera has no airport, so every La Savina port car rental starts at the ferry terminal in La Savina, beside the PM-820 access road and the rotonda del"
         canonical="https://formentera-car-rental.com/la-savina-port-pickup-guide/"
       />
