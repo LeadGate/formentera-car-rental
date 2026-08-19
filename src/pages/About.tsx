@@ -9,7 +9,7 @@ const About = () => {
     <Layout>
       <SEOHead
         title="About Formentera Car Rental | Car Rental in Formentera"
-        description="Learn about Formentera Car Rental — your trusted car rental comparison service in Formentera. We help you find the best deals from local and international providers."
+        description="formentera-car-rental.com is an independent guide comparing local and international car hire on Formentera; it takes no bookings or deposits."
         canonical="https://formentera-car-rental.com/about/"
       />
 

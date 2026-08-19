@@ -57,7 +57,7 @@ const ElectricCarsInFormentera = () => {
     <Layout>
       <SEOHead
         title="Electric Car Rental in Formentera 2026: Costs & Operators"
-        description="Renting an electric car in Formentera in 2026 is a practical way to reduce beach-access fees, blue-zone parking costs, and fuel expense on the island. A"
+        description="An electric rental in Formentera cuts the Ses Illetes access fee and blue-zone parking to €0, from operators such as Motorent Pujols."
         canonical="https://formentera-car-rental.com/electric-cars-in-formentera/"
       />
 

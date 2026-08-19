@@ -57,7 +57,7 @@ const DrivingGuide = () => {
     <Layout>
       <SEOHead
         title="Driving in Formentera 2026: Rules, Roads & Licence Guide"
-        description="Driving in Formentera is straightforward for most visitors because Spain’s DGT traffic code applies, but the island adds three local rules that matter"
+        description="Driving in Formentera follows the Spanish DGT code plus three local rules: 70 km/h on the PM-820, the formentera.eco scheme and the V-16 beacon."
         canonical="https://formentera-car-rental.com/driving-in-formentera/"
       />
 

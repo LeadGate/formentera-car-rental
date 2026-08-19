@@ -42,7 +42,7 @@ const AutoHurenFormentera = () => {
     <Layout>
       <SEOHead
         title="Auto huren op Formentera 2026 – ook zonder creditcard"
-        description="Auto huren op Formentera zonder creditcard: huur ter plaatse in La Savina, niet een Ibiza-huurauto op de veerboot (boete tot €10.000). Alles over de formentera.eco-vergunning, kosten en stranden in 2026."
+        description="Auto huren op Formentera zonder creditcard: huur ter plaatse in La Savina, niet een Ibiza-huurauto op de veerboot (boete tot €10.000)."
         canonical="https://formentera-car-rental.com/auto-huren-formentera/"
       />
 

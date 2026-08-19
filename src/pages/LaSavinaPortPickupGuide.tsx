@@ -56,7 +56,7 @@ const LaSavinaPortPickupGuide = () => {
     <Layout>
       <SEOHead
         title="La Savina Port Car Rental Pickup Guide for 2026"
-        description="Formentera has no airport, so every La Savina port car rental starts at the ferry terminal in La Savina, beside the PM-820 access road and the rotonda del"
+        description="Formentera has no airport: from Ibiza port a 30–45 minute ferry reaches La Savina, where every rental pickup happens beside the PM-820."
         canonical="https://formentera-car-rental.com/la-savina-port-pickup-guide/"
       />
 

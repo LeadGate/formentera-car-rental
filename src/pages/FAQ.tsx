@@ -135,7 +135,7 @@ const FAQ = () => {
     <Layout>
       <SEOHead
         title="Formentera Car Rental FAQ: 12 Key Questions for 2026 |..."
-        description="Planning a 2026 trip to Formentera means understanding three things early: the formentera.eco quota system, the island’s rental insurance rules, and the"
+        description="Formentera answers for 2026: the formentera.eco quota costs €6/day in June and September, €9/day in July and August, with a five-day minimum."
         canonical="https://formentera-car-rental.com/formentera-car-rental-faq/"
       />
 

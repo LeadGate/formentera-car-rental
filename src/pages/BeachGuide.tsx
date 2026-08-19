@@ -57,7 +57,7 @@ const BeachGuide = () => {
     <Layout>
       <SEOHead
         title="Formentera Parking Guide 2026: Ses Illetes, Zones & Beaches"
-        description="Formentera parking in 2026 has three separate systems: regulated blue zones in Es Pujols, La Savina, Sant Francesc Xavier, and Sant Ferran de ses Roques,"
+        description="Formentera parking in 2026 has three systems: blue zones in Es Pujols and La Savina, paid access to Ses Illetes, and free lots at Cala Saona."
         canonical="https://formentera-car-rental.com/formentera-beaches-by-car/"
       />
 
