@@ -83,7 +83,7 @@ const Index = () => {
   return (
     <Layout>
       <SEOHead
-        title="Formentera Car Rental — Compare Deals | Formentera Car..."
+        title="Formentera Car Rental — Compare Local Deals"
         description="Formentera Car Rental — independent comparison of car rental deals in Formentera. Compare local and international providers, pickup points, and travel tips."
         canonical="https://formentera-car-rental.com/"
         jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema, faqSchema]}
