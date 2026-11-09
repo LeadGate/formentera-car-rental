@@ -102,6 +102,9 @@ function lookupCfg(slug) {
 
 function patchHead(html, { slug, canonical, title, description, cfg, heroHref }) {
   const isHomeRoute = slug === '/' || slug === '';
+  // The template hard-codes <html lang="en">; a non-English route must declare its own language.
+  const pageLang = cfg && cfg.article && cfg.article.inLanguage;
+  if (pageLang) html = html.replace(/<html lang="[^"]*"/, `<html lang="${pageLang}"`);
   // The template index.html carries the HOMEPAGE FAQPage, and this function
   // copies that template into every route — so every route shipped an inherited
   // homepage FAQPage describing questions it does not have. Where the route also
